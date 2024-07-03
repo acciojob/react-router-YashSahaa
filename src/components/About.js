@@ -1,9 +1,8 @@
-
 import React from "react";
 import './../styles/App.css';
 import { Link } from "react-router-dom";
 
-const App = () => {
+const About = () => {
   return (
     <div>
       <nav>
@@ -16,9 +15,10 @@ const App = () => {
           </li>
         </ul>
       </nav>
-      <h1>Welcome to my website!</h1>
+      <h1>About</h1>
+      <p>This is a sample react router program</p>
     </div>
   )
 }
 
-export default App
+export default About
